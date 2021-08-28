@@ -36,6 +36,7 @@ header img{
 }
 
 header .container{
+    top: 20px;
     position: relative;
     z-index: 2;
 }
