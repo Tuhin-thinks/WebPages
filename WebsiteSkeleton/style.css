@@ -1,0 +1,89 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.block{
+    color: white;
+    background-color: black;
+    padding: 5%; /* to make it friendly for other devices*/
+}
+
+.block-1{
+    background-color: rgb(46, 65, 100);
+}
+
+.full-page{
+    height: 100vh;
+}
+
+/* using % needs the width, height of the immediate parent to be set */
+.carousel-placeholder{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    background-size: cover;
+}
+
+.carousel-placeholder-1{
+    background-color: #f76c5e;
+}
+
+.carousel-placeholder-2{
+    background-color: #324376;
+}
+
+.carousel-placeholder-3{
+    background-color: #586ba4;
+}
+
+.carousel-item{
+    height: 100vh;
+}
+
+#featured-products-carousel{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.block{
+    color: white;
+    align-content: center;
+    padding: 5%;
+}
+
+.block-1{
+    background-color: #324376;
+}
+
+.block-2{
+    background-color:#586ba4;
+}
+.block-3{
+    background-color: #f76c5e;
+}
+
+.footer-block{
+    padding: 5%;
+    background-color: lightgray;
+    color: black;
+    height: 10%;
+
+}
+
+@media only screen and (max-width: 700px){
+    .block-2{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .first-responsive-order{
+        order: 1;
+    }
+
+    .second-order-responsive{
+        order: 2;
+    }
+}
